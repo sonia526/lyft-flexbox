@@ -11,10 +11,13 @@
 
 }
 .opcion{
+  color: white;
   float: right;
   padding: 30px;
   margin:10px;
   bottom: 50px;
+
+  margin-bottom: none;
 }
 video { 
  
@@ -58,7 +61,7 @@ video {
  }
  #pie{
   background: #4C494F;
-  height: 500px;
+  height: 450px;
   text-align: center;
 
  }
@@ -67,11 +70,41 @@ video {
   height:40px;
   display: block;
   right:0px;
+  
+  text-align: center;
+  margin-bottom: 20px;
  }
  .lista{
   display: inline-block;
   padding: 20px;
+
  }
- li{
-  top: 50px;
- }
+ 
+ li {
+list-style-type: none;
+margin-bottom: 20px;
+color: white;
+}
+#icono{
+  text-align: center;
+  
+  color: white;
+  /* white-space: 20px; */
+  border-radius:50px; 
+  border-style:solid;
+  
+  font-size: 20px;
+  padding: 10px;
+  line-height: 20px;
+}
+hr{
+  width: 50%;
+}
+p{
+  color: white;
+}
+
+
+
+
+
