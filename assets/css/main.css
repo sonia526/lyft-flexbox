@@ -6,9 +6,21 @@
 	bottom: 30px;
 }
 .caja{
-	background-color: white;
-	padding: 50px;
-
+	 background-color: white;
+  padding: 50px; 
+  position: fixed;
+  width: 1250px;
+  height: 50px;
+ /*  background-image: linear-gradient(180deg,rgba(51,52,71, .7), rgba(51,52,71,0));
+ background-position: 0 0;
+ background-color: hsl(0,0%,100%,0);
+ border-color: rgb(216,220,230,0);
+ transition: background-color .2s ease .2s,background-position .2s ease .2s;
+ } */}
+.header{
+  position: fixed;
+  width: 1200px;
+  height: 300px;
 }
 .opcion{
   color: green;
@@ -23,11 +35,8 @@ video {
  
   width: 1341px; importante
   height: auto;
-  
-  height: auto;
- 
   position: relative;    
-  top: 50;
+  top: 50px;
   left: 50%;
   transform: translateX(-50%) translateY(-50%); 
   background-size: cover;
