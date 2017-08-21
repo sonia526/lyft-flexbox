@@ -56,3 +56,22 @@ video {
     text-align: center;
     bottom: 50%;
  }
+ #pie{
+  background: #4C494F;
+  height: 500px;
+  text-align: center;
+
+ }
+ #figura1{
+  width: 136px;
+  height:40px;
+  display: block;
+  right:0px;
+ }
+ .lista{
+  display: inline-block;
+  padding: 20px;
+ }
+ li{
+  top: 50px;
+ }
