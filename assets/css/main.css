@@ -8,14 +8,17 @@
 .caja{
 	background-color: black;
 	padding: 50px;
+
 }
 .opcion{
   float: right;
   padding: 30px;
+  margin:10px;
+  bottom: 50px;
 }
 video { 
  
-  width: 1341px; /*importante*/
+  width: 1341px; importante
   height: auto;
   
   height: auto;
@@ -26,10 +29,30 @@ video {
   transform: translateX(-50%) translateY(-50%); 
   background-size: cover;
   z-index: -100; 
-}
-div #gradiente {
-	background-color: red;
-}
-div{
-	color: red;
 } 
+#gradiente {
+    position: relative;
+   top: -381px;
+    height: 500px;
+    width: 100%;
+    background: purple; 
+    background: -webkit-linear-gradient( #76278f,#2B1E66); 
+    background: -o-linear-gradient( #76278f,#2B1E66);
+    background: -moz-linear-gradient( #76278f,#2B1E66); 
+    background: linear-gradient( #76278f,#2B1E66); 
+  }
+.telefono{
+  float: right;
+    width: 400px;
+    height: 400px;
+    padding-right: 100px;
+}
+/* #video1{
+  float: right;
+  
+}
+ */
+ span{
+    text-align: center;
+    bottom: 50%;
+ }
