@@ -1,0 +1,35 @@
+#logo-blanco{
+     
+	float: left;
+	width: 80px;
+	height: 80px;
+	bottom: 30px;
+}
+.caja{
+	background-color: black;
+	padding: 50px;
+}
+.opcion{
+  float: right;
+  padding: 30px;
+}
+video { 
+ 
+  width: 1341px; /*importante*/
+  height: auto;
+  
+  height: auto;
+ 
+  position: relative;    
+  top: 50;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); 
+  background-size: cover;
+  z-index: -100; 
+}
+div #gradiente {
+	background-color: red;
+}
+div{
+	color: red;
+} 
