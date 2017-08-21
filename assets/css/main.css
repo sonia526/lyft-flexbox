@@ -6,12 +6,12 @@
 	bottom: 30px;
 }
 .caja{
-	background-color: black;
+	background-color: white;
 	padding: 50px;
 
 }
 .opcion{
-  color: white;
+  color: green;
   float: right;
   padding: 30px;
   margin:10px;
@@ -49,12 +49,23 @@ video {
     width: 400px;
     height: 400px;
     padding-right: 100px;
+    bottom: 900px;
 }
 /* #video1{
   float: right;
   
 }
  */
+ .formulario{
+   color: white;
+ }
+ .contenido-telefono, h4{
+  margin-top: 30px;
+  padding-top: 30px;
+  color: white;
+  padding-left: 30px;
+  right: 30px;
+ }
  span{
     text-align: center;
     bottom: 50%;
@@ -103,6 +114,7 @@ hr{
 p{
   color: white;
 }
+
 
 
 
