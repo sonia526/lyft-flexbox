@@ -1,47 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+
+body{
+font-family: 'Montserrat Alternates', sans-serif;
+}
+*{
+  
+   /*  outline: 1px solid  cyan;  */ 
+    
+    padding: 0;
+    margin: 0;
+}
+
+/*menu*/
 #logo-blanco{
-     
+  margin-top: 0;
 	float: left;
 	width: 80px;
 	height: 80px;
 	bottom: 30px;
 }
 .caja{
-	 background-color: white;
+	background-color: black;
   padding: 50px; 
-  position: fixed;
-  width: 1250px;
+  width: 1235px;
   height: 50px;
- /*  background-image: linear-gradient(180deg,rgba(51,52,71, .7), rgba(51,52,71,0));
- background-position: 0 0;
- background-color: hsl(0,0%,100%,0);
- border-color: rgb(216,220,230,0);
- transition: background-color .2s ease .2s,background-position .2s ease .2s;
- } */}
+  top: 0px;
+  position:absolute;
+   z-index:2;
+}
 .header{
-  position: fixed;
+  top: 0;
+  position: relative;
   width: 1200px;
   height: 300px;
 }
-.opcion{
-  color: green;
-  float: right;
-  padding: 30px;
-  margin:10px;
-  bottom: 50px;
 
-  margin-bottom: none;
+.opcion{
+  color: white;
+  padding: 30px;
+  float: right;
+  bottom: 150px;
+  display: inline-block;
+  text-decoration: none;
+ 
 }
+button{
+  float: right;
+  background: transparent;
+  border-radius: 90%;
+  border: 2px solid purple;
+  
+}
+
 video { 
  
-  width: 1341px; importante
+  width: 1341px; 
   height: auto;
-  position: relative;    
+      
   top: 50px;
   left: 50%;
   transform: translateX(-50%) translateY(-50%); 
   background-size: cover;
   z-index: -100; 
+  position:relative; 
+  z-index:1;
 } 
+/*/////////////////////////////*/
+.form-caja{
+  color: white;
+  position:absolute;
+   z-index:2; 
+   right: 60px; 
+   top:15em;
+   width: 500px;
+   height:400px;
+   /* letter-spacing: 10px; */
+
+}
+h4{
+  margin-bottom: 0;
+  margin-top:0;
+}
+
 #gradiente {
     position: relative;
    top: -381px;
@@ -52,6 +92,7 @@ video {
     background: -o-linear-gradient( #76278f,#2B1E66);
     background: -moz-linear-gradient( #76278f,#2B1E66); 
     background: linear-gradient( #76278f,#2B1E66); 
+    z-index: 1;
   }
 .telefono{
   float: right;
@@ -59,15 +100,71 @@ video {
     height: 400px;
     padding-right: 100px;
     bottom: 900px;
+    z-index: 2;
 }
-/* #video1{
-  float: right;
-  
+.texto-telefono{
+  z-index: 3;
 }
- */
- .formulario{
-   color: white;
- }
+
+/*los tres videos*/
+#seccion1{
+     
+     width: 100%;
+     color: black;
+    background: white;
+    margin-top: 0px;
+}
+.texto1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 219px;
+    color: black;
+    
+}
+.uno-text{
+  position: relative;
+  color: black;
+  font-style:  Georgia;
+}
+#video1{
+      margin-left: 405px;
+      margin-right: 10px;
+}
+#seccion2{
+    position: relative;
+     width: 100%;
+     color: black;
+    background: white;
+}
+.texto2{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 900px;
+    width: 240px;
+}
+#video2{
+    margin-left: 0;
+}
+#seccion3{
+    position: relative;
+     width: 100%;
+     color: black;
+    background: white;
+  }
+.texto3{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 230px;
+    font-size: 30px;
+}
+#video3{
+      margin-left: 405px;
+      position: flex;
+      margin-right: 0px;
+} 
+/*/////////////////////////////////*/
  .contenido-telefono, h4{
   margin-top: 30px;
   padding-top: 30px;
@@ -94,12 +191,15 @@ video {
   text-align: center;
   margin-bottom: 20px;
  }
+ 
+
+ /*footer o pie de pagina*/
  .lista{
   display: inline-block;
-  padding: 20px;
-
- }
+  padding : 20px;
  
+ }
+  
  li {
 list-style-type: none;
 margin-bottom: 20px;
@@ -107,25 +207,26 @@ color: white;
 }
 #icono{
   text-align: center;
-  
+  margin-bottom: 30px;
   color: white;
-  /* white-space: 20px; */
+  margin-top: 10px;
   border-radius:50px; 
   border-style:solid;
-  
+  margin-right: 50px;
   font-size: 20px;
   padding: 10px;
-  line-height: 20px;
+  
 }
 hr{
   width: 50%;
-}
+  margin-top: 30px;
+  float: center;
+  position: relative;
+  margin-left:25%;
+  }
 p{
+  margin-top: 30px;
   color: white;
+  font-size: 10px;
 }
-
-
-
-
-
-
+/*////////////////////////*/
